@@ -1,7 +1,7 @@
 const app = require("./app")
-const port = 3000
+const PORT = 3000
 
 
-app.listen(process.env.port, () => {
-    console.log(`Berjalan di port ${port}`)
+app.listen(process.env.PORT, () => {
+    console.log(`Berjalan di port ${PORT}`)
 })
