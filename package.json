@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.14.0"
+    },
   "scripts": {
     "test": "jest --detectOpenHandles",
     "start": "nodemon index.js"
